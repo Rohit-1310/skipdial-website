@@ -7,9 +7,7 @@ const __filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(__filename)
 
 const nextConfig: NextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
     localPatterns: [
       {
         pathname: '/api/media/file/**',

@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next'
 
+export const dynamic = 'force-static'
+
 import { getAllPageSlugs, getPosts } from '../lib/cms'
 
 const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
